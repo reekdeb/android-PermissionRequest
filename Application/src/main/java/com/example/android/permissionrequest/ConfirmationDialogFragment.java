@@ -20,9 +20,10 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v4.app.DialogFragment;
+import androidx.fragment.app.DialogFragment;
 import android.text.TextUtils;
+
+import androidx.annotation.NonNull;
 
 /**
  * Prompts the user to confirm permission request.
